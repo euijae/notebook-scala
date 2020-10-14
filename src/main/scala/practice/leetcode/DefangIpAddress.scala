@@ -1,3 +1,5 @@
+package main.scala.practice.leetcode
+
 object DefangIpAddress extends App{
   def defangIPaddr(address: String): String = {
     var result = "";
