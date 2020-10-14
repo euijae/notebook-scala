@@ -1,3 +1,4 @@
+package main.scala.concept.collection
 
 object Lists extends App {
 
@@ -34,7 +35,7 @@ object Lists extends App {
   println(capNames)
   println(lessThanFive)
 
-  // foldLeft - first param is default value
+  // foldLeft - first param is default/init value
   val foldLeft1 = oneToTen.foldLeft(0)(_ + _)
   val foldLeft2 = oneToTen.foldLeft(1)(_ * _)
 

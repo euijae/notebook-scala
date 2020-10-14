@@ -1,3 +1,5 @@
+package main.scala.concept.method
+
 object MultiLine extends App {
   def addThenDouble(a: Int, b: Int): Int = {
     val sum = a + b

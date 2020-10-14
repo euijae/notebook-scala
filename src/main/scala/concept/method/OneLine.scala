@@ -1,3 +1,5 @@
+package main.scala.concept.method
+
 object OneLine extends App {
   // legal to write the methods without return type
   def sum(a: Int, b: Int): Int = a + b

@@ -1,5 +1,8 @@
+package main.scala.concept.controlStructures
+
 object While extends App {
-  def whileStatement(value: Int, start: Int, end: Int) = {
+
+  def whileStatement(value: Int, start: Int, end: Int): Unit = {
     print(if(value == start) "[" else "")
     print(value)
     print(if(value == end) "]\n" else ", ")

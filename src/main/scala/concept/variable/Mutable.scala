@@ -1,3 +1,5 @@
+package main.scala.concept.variable
+
 object Mutable extends App{
   var y = 1
   print(y)

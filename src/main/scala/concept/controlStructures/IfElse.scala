@@ -1,3 +1,5 @@
+package main.scala.concept.controlStructures
+
 object IfElse extends App {
   val number: Int = 100
 

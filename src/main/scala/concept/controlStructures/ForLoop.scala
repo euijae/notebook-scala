@@ -1,3 +1,5 @@
+package main.scala.concept.controlStructures
+
 object ForLoop extends App {
   def lineBreaker(curr: Int, last: Int): String = {
     if(curr == last) "\n" else ", "
